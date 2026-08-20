@@ -1,0 +1,196 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GESTIONCABINETDEPSYCHIATRIE
+</name>
+</assembly>
+<members>
+<member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.ResourceManager">
+	<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.Culture">
+	<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources._1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources._11">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources._1323165__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.appointment">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.appointment1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.arriere">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.backe">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.brain">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_add_48">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_ajouter_le_dossier_38">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_calendrier_48">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_chercher_38">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_chercher_381">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_connexion_en_tant_qu_utilisateur_96">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_documents_48">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_dossier_48">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_exit_32">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_finance_48">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_finance_481">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_info_48">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_medical_jar_96__xxhdpi_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_menu_48">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_nom_48">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_nom_96">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_pilule_emoji_48">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_tirelire_48">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_tirelire_481">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_traitement_48">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_traitement_96">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_utilisateur_48">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.icons8_x_48">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.istockphoto_1149178089_612x612">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.istockphoto_1390070193_612x612">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.medical_record">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.patient">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.patient__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.patient__1_1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.patient1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.pexels_anniroenkae_2832382">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.pexels_felixmittermeier_956981">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.uso">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.uso1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources.uson">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:GESTION_CABINET_DE_PSYCHIATRIE.My.Resources.Resources">
+	<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+</members>
+</doc>

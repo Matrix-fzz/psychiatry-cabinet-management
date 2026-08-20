@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1CB4C0B0-6799-457F-9A34-8A1598C9EA2A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>GESTION_CABINET_DE_PSYCHIATRIE.My.MyApplication</StartupObject>
+    <RootNamespace>GESTION_CABINET_DE_PSYCHIATRIE</RootNamespace>
+    <AssemblyName>GESTION CABINET DE PSYCHIATRIE</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>GESTION CABINET DE PSYCHIATRIE.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>GESTION CABINET DE PSYCHIATRIE.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=8.8.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="CODOSSIER.Designer.vb">
+      <DependentUpon>CODOSSIER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CODOSSIER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COPATIENT.Designer.vb">
+      <DependentUpon>COPATIENT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="COPATIENT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DOCUMENT.Designer.vb">
+      <DependentUpon>DOCUMENT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DOCUMENT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DOSSIER.Designer.vb">
+      <DependentUpon>DOSSIER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DOSSIER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GESTION PATIENT.Designer.vb">
+      <DependentUpon>GESTION PATIENT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GESTION PATIENT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GESTIONFINNANCE.Designer.vb">
+      <DependentUpon>GESTIONFINNANCE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GESTIONFINNANCE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GESTIONMEDICAMENT.Designer.vb">
+      <DependentUpon>GESTIONMEDICAMENT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GESTIONMEDICAMENT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INSCRIPTION.Designer.vb">
+      <DependentUpon>INSCRIPTION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INSCRIPTION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.vb">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageAppointment.Designer.vb">
+      <DependentUpon>ManageAppointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageAppointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu1.Designer.vb">
+      <DependentUpon>Menu1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RENDEZVOUS.Designer.vb">
+      <DependentUpon>RENDEZVOUS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RENDEZVOUS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resrever.Designer.vb">
+      <DependentUpon>Resrever.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resrever.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TRAITEMENT.Designer.vb">
+      <DependentUpon>TRAITEMENT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TRAITEMENT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CODOSSIER.resx">
+      <DependentUpon>CODOSSIER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COPATIENT.resx">
+      <DependentUpon>COPATIENT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DOCUMENT.resx">
+      <DependentUpon>DOCUMENT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DOSSIER.resx">
+      <DependentUpon>DOSSIER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GESTION PATIENT.resx">
+      <DependentUpon>GESTION PATIENT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GESTIONFINNANCE.resx">
+      <DependentUpon>GESTIONFINNANCE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GESTIONMEDICAMENT.resx">
+      <DependentUpon>GESTIONMEDICAMENT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INSCRIPTION.resx">
+      <DependentUpon>INSCRIPTION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageAppointment.resx">
+      <DependentUpon>ManageAppointment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu1.resx">
+      <DependentUpon>Menu1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RENDEZVOUS.resx">
+      <DependentUpon>RENDEZVOUS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resrever.resx">
+      <DependentUpon>Resrever.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRAITEMENT.resx">
+      <DependentUpon>TRAITEMENT.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-nom-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-info-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menu-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-calendrier-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-utilisateur-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-traitement-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-documents-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dossier-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pilule-emoji-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-finance-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1149178089-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1390070193-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-felixmittermeier-956981.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uson.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-nom-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-x-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-anniroenkae-2832382.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uso1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arriere.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1323165 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appointment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-chercher-38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-traitement-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appointment1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-chercher-381.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical-record.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tirelire-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tirelire-481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-finance-481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-connexion-en-tant-qu%27utilisateur-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-medical-jar-96%28-xxhdpi%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ajouter-le-dossier-38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient %281%291.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
